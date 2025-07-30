@@ -80,22 +80,10 @@ HorizonNetの事前学習済みモデル（311.51 MB）は大きすぎるため�
 ### Webotsでの実行
 
 1. Webotsをインストール
-2. モデルファイルをダウンロード（上記セットアップ参照）
-3. Webotsで`world.wbt`を開く
-4. ▶︎ボタンでシミュレーションを開始
+2. Webotsで`world.wbt`を開く
+3. ▶︎ボタンでシミュレーションを開始
 
-### Git LFSについて
 
-このリポジトリはGit LFS（Large File Storage）を使用しています。大きなファイルを扱う場合は、Git LFSのインストールが必要です：
-
-```bash
-# macOS
-brew install git-lfs
-git lfs install
-
-# その他のOS
-# https://git-lfs.github.com/ からインストール
-```
 
 ## ⚙️ パラメータ調整
 

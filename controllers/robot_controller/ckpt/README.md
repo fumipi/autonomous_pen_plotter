@@ -14,7 +14,4 @@ This directory should contain the HorizonNet model file:
    - The model file is too large for GitHub (311.51 MB > 100 MB limit)
    - Please download it manually and place it in this directory
 
-## Note
-
-This file is tracked with Git LFS (Large File Storage) to handle the large file size.
-If you have Git LFS installed, the file will be automatically downloaded when you clone the repository. 
+ 
