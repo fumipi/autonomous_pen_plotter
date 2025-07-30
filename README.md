@@ -84,7 +84,6 @@ HorizonNetの事前学習済みモデル（311.51 MB）は大きすぎるため�
 3. ▶︎ボタンでシミュレーションを開始
 
 
-
 ## ⚙️ パラメータ調整
 
 ### 制御パラメータ
@@ -98,6 +97,6 @@ HorizonNetの事前学習済みモデル（311.51 MB）は大きすぎるため�
 
 ## 🔗 参考資料
 
-- [HorizonNet GitHub](https://github.com/sunset1995/HorizonNet): 室内レイアウト推定モデル
-- [Webots Documentation](https://cyberbotics.com/doc/): ロボットシミュレーション環境
+- [HorizonNet GitHub](https://github.com/sunset1995/HorizonNet): HorizonNet 室内レイアウト推定モデル
+- [Webots Documentation](https://cyberbotics.com/doc/): Webotsロボットシミュレーション環境
 - [PyTorch Documentation](https://pytorch.org/docs/): ディープラーニングフレームワーク
