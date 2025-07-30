@@ -64,17 +64,38 @@ autonomous_pen_plotter/
 
 ### 必要なファイル
 
-- `ckpt/resnet50_rnn__mp3d.pth`: HorizonNetの事前学習済みモデル
+- `ckpt/resnet50_rnn__mp3d.pth`: HorizonNetの事前学習済みモデル（手動ダウンロードが必要）
 - `room_map.json`: 部屋のレイアウト情報をJSONファイルで記述
 - `points.csv`: 描画する図形の座標データ
+
+### モデルファイルのダウンロード
+
+HorizonNetの事前学習済みモデル（311.51 MB）は大きすぎるため、GitHubには含まれていません。
+
+1. [HorizonNet GitHub](https://github.com/sunset1995/HorizonNet)から`resnet50_rnn__mp3d.pth`をダウンロード
+2. `controllers/robot_controller/ckpt/`ディレクトリに配置
 
 ## 🎮 使用方法
 
 ### Webotsでの実行
 
 1. Webotsをインストール
-2. Webotsで`world.wbt`を開く
-2. ▶︎ボタンでシミュレーションを開始
+2. モデルファイルをダウンロード（上記セットアップ参照）
+3. Webotsで`world.wbt`を開く
+4. ▶︎ボタンでシミュレーションを開始
+
+### Git LFSについて
+
+このリポジトリはGit LFS（Large File Storage）を使用しています。大きなファイルを扱う場合は、Git LFSのインストールが必要です：
+
+```bash
+# macOS
+brew install git-lfs
+git lfs install
+
+# その他のOS
+# https://git-lfs.github.com/ からインストール
+```
 
 ## ⚙️ パラメータ調整
 
